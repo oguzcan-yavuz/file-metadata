@@ -1,0 +1,35 @@
+[
+  {
+    "file": {
+      "fieldname": "givenFile",
+      "originalname": "fade_to_black.txt",
+      "encoding": "7bit",
+      "mimetype": "text/plain",
+      "buffer": "<Buffer 22 46 61 64 65 20 54 6f 20 42 6c 61 63 6b 22 0a 0a 4c 69 66 65 2c 20 69 74 20 73 65 65 6d 73 2c 20 77 69 6c 6c 20 66 61 64 65 20 61 77 61 79 0a 44 72 ... >",
+      "size": 664
+    },
+    "expectedResult": { "size": 664 }
+  },
+  {
+    "file": {
+      "fieldname": "givenFile",
+      "originalname": "the_name_of_life.mp3",
+      "encoding": "7bit",
+      "mimetype": "audio/mp3",
+      "buffer": "<Buffer 49 44 33 04 00 00 00 00 01 00 54 58 58 58 00 00 00 12 00 00 03 6d 61 6a 6f 72 5f 62 72 61 6e 64 00 64 61 73 68 00 54 58 58 58 00 00 00 11 00 00 03 6d ... >",
+      "size": 8379801
+    },
+    "expectedResult": { "size": 8379801 }
+  },
+  {
+    "file": {
+      "fieldname": "givenFile",
+      "originalname": "toua.jpg",
+      "encoding": "7bit",
+      "mimetype": "image/jpeg",
+      "buffer": "<Buffer ff d8 ff db 00 43 00 08 06 06 07 06 05 08 07 07 07 09 09 08 0a 0c 14 0d 0c 0b 0b 0c 19 12 13 0f 14 1d 1a 1f 1e 1d 1a 1c 1c 20 24 2e 27 20 22 2c 23 1c ... >",
+      "size": 87625
+    },
+    "expectedResult": { "size": 87625 }
+  }
+]
