@@ -1,11 +1,18 @@
 const express = require('express');
+const multer = require('multer');
+const metadata = require('../api/metadata');
 let router = express.Router();
+let upload = multer();
 
 // main page router
 router.get('/', (req, res) => {
-    // let fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
-    // res.render('index', { url: fullUrl });
-    res.send('it works!');
+    res.render('index');
+});
+
+router.post('/upload', upload.single('givenFile'), async (req, res) => {
+    let givenFile = req.file;
+    let result = await metadata(givenFile);
+    res.json(result);
 });
 
 module.exports = router;
