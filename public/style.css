@@ -6,10 +6,6 @@ ol.stories {
     list-style: katakana-iroha inside;
 }
 
-ul.examples {
-    list-style: none inside;
-}
-
 footer {
     margin-top: 20px;
 }
